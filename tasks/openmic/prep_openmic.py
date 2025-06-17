@@ -88,5 +88,5 @@ if os.path.exists(root + '/audio_16k/'):
     with open('./data/datafiles/openmic_train_data.json', 'w') as f:
         json.dump({'data': train_json}, f, indent=1)
     with open('./data/datafiles/openmic_test_data.json', 'w') as f:
-        json.dump({'data': train_json}, f, indent=1)
+        json.dump({'data': test_json}, f, indent=1)
 
